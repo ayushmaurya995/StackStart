@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StackStart | Learn Full Stack Development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container">
+        <a href="#home" class="brand-logo">
+          <span class="brand-dot"></span>
+          <span>StackStart</span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#paths">Paths</a></li>
+            <li><a href="#tech">Tech</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+
+          <button class="dark-mode-toggle" id="themeToggle" type="button">Dark mode</button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero-section section" id="home">
+        <div class="container hero-panel">
+          <div class="hero-copy">
+            <p class="section-kicker">Full Stack Development Platform</p>
+            <h1>Learn full stack development from scratch.</h1>
+            <p class="hero-text">
+              Master HTML, CSS, JavaScript, React, Node.js, MongoDB and more.
+              Build real projects, earn certificates, and launch your dev career.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#courses" class="btn btn-primary">Start Learning</a>
+              <a href="#paths" class="btn btn-secondary">Explore Paths</a>
+            </div>
+
+            <div class="hero-highlights">
+              <span>Beginner friendly</span>
+              <span>Project based</span>
+              <span>Career ready</span>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-image-wrap">
+              <img
+                src="assets/595038169546777113.jpg"
+                alt="Programming setup with monitors and laptop"
+                class="hero-image"
+              />
+              <div class="hero-sticker">
+                <span>Start Free</span>
+                <strong>Learn to code</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="why-us">
+        <div class="container section-panel">
+          <div class="section-heading centered">
+            <p class="section-kicker">Why Learn With Us</p>
+            <h2>Everything you need to become a full stack developer.</h2>
+            <p>
+              We take you from zero to job-ready with structured learning paths and
+              real projects.
+            </p>
+          </div>
+
+          <div class="feature-grid top-features">
+            <article class="feature-card feature-card-soft">
+              <span class="feature-number">01</span>
+              <h3>Beginner Friendly</h3>
+              <p>
+                No experience needed. Start with the basics and gradually move to
+                advanced topics at your own pace.
+              </p>
+            </article>
+            <article class="feature-card feature-card-soft">
+              <span class="feature-number">02</span>
+              <h3>Project Based</h3>
+              <p>
+                Build real projects as you learn. Each course includes hands-on
+                exercises and portfolio-ready projects.
+              </p>
+            </article>
+            <article class="feature-card feature-card-soft">
+              <span class="feature-number">03</span>
+              <h3>Career Ready</h3>
+              <p>
+                Get interview prep, resume tips, and a portfolio that shows
+                employers you know your stuff.
+              </p>
+            </article>
+          </div>
+
+          <div class="feature-grid bottom-features">
+            <article class="feature-card feature-card-outline">
+              <h3>Build real apps</h3>
+              <p>
+                Ship polished landing pages, dashboards, APIs, and full stack
+                products instead of only watching tutorials.
+              </p>
+            </article>
+            <article class="feature-card feature-card-outline">
+              <h3>Learn with structure</h3>
+              <p>
+                Follow clear milestones that guide you from fundamentals to
+                deployment without feeling lost.
+              </p>
+            </article>
+            <article class="feature-card feature-card-outline">
+              <h3>Stand out to employers</h3>
+              <p>
+                Create a portfolio that proves you can turn ideas into production
+                quality web experiences.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="paths">
+        <div class="container section-panel">
+          <div class="section-heading centered">
+            <p class="section-kicker">Learning Paths</p>
+            <h2>Choose your learning path.</h2>
+          </div>
+
+          <div class="path-grid">
+            <article class="path-card">
+              <img
+                src="assets/981292206306603359.jpg"
+                alt="Frontend development workspace"
+                class="path-image"
+              />
+              <div class="path-content">
+                <h3>Frontend Development</h3>
+                <p>
+                  Master HTML, CSS, JavaScript, React, and modern UI frameworks.
+                  Build beautiful responsive websites.
+                </p>
+                <ul class="path-list">
+                  <li>HTML5 &amp; CSS3</li>
+                  <li>JavaScript ES6+</li>
+                  <li>React &amp; Redux</li>
+                  <li>Responsive Design</li>
+                </ul>
+                <a href="#courses" class="btn btn-primary btn-block">Start Path</a>
+              </div>
+            </article>
+
+            <article class="path-card">
+              <img
+                src="assets/https___i_redd.it_cmsq8wayrav41.jpg"
+                alt="Backend development workspace"
+                class="path-image"
+              />
+              <div class="path-content">
+                <h3>Backend Development</h3>
+                <p>
+                  Learn Node.js, Express, databases, APIs, and server-side
+                  programming. Build powerful backends.
+                </p>
+                <ul class="path-list">
+                  <li>Node.js &amp; Express</li>
+                  <li>MongoDB &amp; SQL</li>
+                  <li>REST APIs</li>
+                  <li>Authentication</li>
+                </ul>
+                <a href="#courses" class="btn btn-primary btn-block">Start Path</a>
+              </div>
+            </article>
+
+            <article class="path-card">
+              <img
+                src="assets/603130575118324483.jpg"
+                alt="Full stack development workspace"
+                class="path-image"
+              />
+              <div class="path-content">
+                <h3>Full Stack Mastery</h3>
+                <p>
+                  Combine frontend and backend skills. Build complete web
+                  applications from start to finish.
+                </p>
+                <ul class="path-list">
+                  <li>Frontend + Backend</li>
+                  <li>Database Design</li>
+                  <li>Deployments</li>
+                  <li>DevOps Basics</li>
+                </ul>
+                <a href="#courses" class="btn btn-primary btn-block">Start Path</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="tech">
+        <div class="container section-panel section-panel-tight">
+          <div class="section-heading centered">
+            <p class="section-kicker">Technologies</p>
+            <h2>Technologies you will learn.</h2>
+          </div>
+
+          <div class="tech-pill-grid">
+            <span class="tech-pill">HTML5</span>
+            <span class="tech-pill">CSS3</span>
+            <span class="tech-pill">JavaScript</span>
+            <span class="tech-pill">TypeScript</span>
+            <span class="tech-pill">React</span>
+            <span class="tech-pill">Next.js</span>
+            <span class="tech-pill">Redux</span>
+            <span class="tech-pill">Tailwind CSS</span>
+            <span class="tech-pill">Node.js</span>
+            <span class="tech-pill">Express.js</span>
+            <span class="tech-pill">MongoDB</span>
+            <span class="tech-pill">SQL</span>
+            <span class="tech-pill">Python</span>
+            <span class="tech-pill">Django</span>
+            <span class="tech-pill">Git &amp; GitHub</span>
+            <span class="tech-pill">REST APIs</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="courses">
+        <div class="container section-panel">
+          <div class="section-heading centered section-heading-wide">
+            <p class="section-kicker">Courses</p>
+            <h2>Learn each technology with a dedicated course path.</h2>
+            <p>
+              This platform is built around focused, structured courses for every
+              technology. Start from the basics and grow into advanced concepts
+              with hands-on practice.
+            </p>
+          </div>
+
+          <div class="course-controls">
+            <label class="search-box" for="courseSearch">
+              <span class="search-icon" aria-hidden="true"></span>
+              <input
+                type="search"
+                id="courseSearch"
+                placeholder="Search technology..."
+                class="search-input"
+              />
+            </label>
+
+            <div class="filter-buttons">
+              <button class="filter-btn active" data-filter="all" type="button">All</button>
+              <button class="filter-btn" data-filter="frontend" type="button">Frontend</button>
+              <button class="filter-btn" data-filter="backend" type="button">Backend</button>
+              <button class="filter-btn" data-filter="database" type="button">Database</button>
+              <button class="filter-btn" data-filter="programming" type="button">Programming</button>
+              <button class="filter-btn" data-filter="tools" type="button">Tools</button>
+            </div>
+          </div>
+
+          <p class="course-results" id="courseCount">Showing all 19 courses</p>
+
+          <div class="courses-grid" id="courseCards">
+            <article class="course-card" data-category="frontend">
+              <div class="course-card-top">
+                <span class="course-icon">H</span>
+                <span class="course-tag">Frontend</span>
+              </div>
+              <h3>HTML5</h3>
+              <p>
+                Build semantic, accessible web pages from the ground up with
+                structure, forms, media, and modern browser APIs.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Beginner</dd></div>
+                <div><dt>Lessons</dt><dd>24 lessons</dd></div>
+                <div><dt>Duration</dt><dd>4 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="frontend">
+              <div class="course-card-top">
+                <span class="course-icon">C</span>
+                <span class="course-tag">Frontend</span>
+              </div>
+              <h3>CSS3</h3>
+              <p>
+                Master layout systems, responsive design, animations, and modern
+                styling patterns for polished interfaces.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Beginner</dd></div>
+                <div><dt>Lessons</dt><dd>28 lessons</dd></div>
+                <div><dt>Duration</dt><dd>4 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="frontend">
+              <div class="course-card-top">
+                <span class="course-icon">J</span>
+                <span class="course-tag">Frontend</span>
+              </div>
+              <h3>JavaScript</h3>
+              <p>
+                Learn core programming concepts, DOM manipulation, async flows,
+                and practical scripts for interactive products.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Intermediate</dd></div>
+                <div><dt>Lessons</dt><dd>36 lessons</dd></div>
+                <div><dt>Duration</dt><dd>6 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="programming">
+              <div class="course-card-top">
+                <span class="course-icon">T</span>
+                <span class="course-tag">Programming</span>
+              </div>
+              <h3>TypeScript</h3>
+              <p>
+                Add type safety, interfaces, generics, and scalable architecture
+                to your JavaScript projects with modern TypeScript patterns.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Intermediate</dd></div>
+                <div><dt>Lessons</dt><dd>24 lessons</dd></div>
+                <div><dt>Duration</dt><dd>4 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="frontend">
+              <div class="course-card-top">
+                <span class="course-icon">R</span>
+                <span class="course-tag">Frontend</span>
+              </div>
+              <h3>React</h3>
+              <p>
+                Create component-driven interfaces with hooks, state management,
+                and reusable design systems.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Intermediate</dd></div>
+                <div><dt>Lessons</dt><dd>32 lessons</dd></div>
+                <div><dt>Duration</dt><dd>5 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="frontend">
+              <div class="course-card-top">
+                <span class="course-icon">N</span>
+                <span class="course-tag">Frontend</span>
+              </div>
+              <h3>Next.js</h3>
+              <p>
+                Build production-ready React apps with server rendering, routing,
+                image optimization, and deployment workflows.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Advanced</dd></div>
+                <div><dt>Lessons</dt><dd>28 lessons</dd></div>
+                <div><dt>Duration</dt><dd>5 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="frontend">
+              <div class="course-card-top">
+                <span class="course-icon">D</span>
+                <span class="course-tag">Frontend</span>
+              </div>
+              <h3>Redux</h3>
+              <p>
+                Understand predictable state management for large applications and
+                connect your UI to shared data flows.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Intermediate</dd></div>
+                <div><dt>Lessons</dt><dd>18 lessons</dd></div>
+                <div><dt>Duration</dt><dd>3 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="frontend">
+              <div class="course-card-top">
+                <span class="course-icon">T</span>
+                <span class="course-tag">Frontend</span>
+              </div>
+              <h3>Tailwind CSS</h3>
+              <p>
+                Design modern interfaces quickly with utility-first styling,
+                responsive layouts, and reusable component patterns.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Beginner</dd></div>
+                <div><dt>Lessons</dt><dd>20 lessons</dd></div>
+                <div><dt>Duration</dt><dd>3 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="backend">
+              <div class="course-card-top">
+                <span class="course-icon">N</span>
+                <span class="course-tag">Backend</span>
+              </div>
+              <h3>Node.js</h3>
+              <p>
+                Create servers, automate tasks, and power backends with
+                JavaScript beyond the browser.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Intermediate</dd></div>
+                <div><dt>Lessons</dt><dd>30 lessons</dd></div>
+                <div><dt>Duration</dt><dd>5 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="backend">
+              <div class="course-card-top">
+                <span class="course-icon">E</span>
+                <span class="course-tag">Backend</span>
+              </div>
+              <h3>Express.js</h3>
+              <p>
+                Design and consume APIs with authentication, error handling,
+                pagination, and clean request-response patterns.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Intermediate</dd></div>
+                <div><dt>Lessons</dt><dd>20 lessons</dd></div>
+                <div><dt>Duration</dt><dd>3 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="database">
+              <div class="course-card-top">
+                <span class="course-icon">M</span>
+                <span class="course-tag">Database</span>
+              </div>
+              <h3>MongoDB</h3>
+              <p>
+                Model data, design schemas, write aggregations, and connect
+                modern applications to flexible document storage.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Intermediate</dd></div>
+                <div><dt>Lessons</dt><dd>22 lessons</dd></div>
+                <div><dt>Duration</dt><dd>3 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="database">
+              <div class="course-card-top">
+                <span class="course-icon">S</span>
+                <span class="course-tag">Database</span>
+              </div>
+              <h3>SQL</h3>
+              <p>
+                Query relational databases, join data, optimize performance, and
+                design clean normalized schemas.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Beginner</dd></div>
+                <div><dt>Lessons</dt><dd>18 lessons</dd></div>
+                <div><dt>Duration</dt><dd>3 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="programming">
+              <div class="course-card-top">
+                <span class="course-icon">P</span>
+                <span class="course-tag">Programming</span>
+              </div>
+              <h3>Python</h3>
+              <p>
+                Learn syntax, automation, file handling, and backend
+                fundamentals with one of the most versatile languages.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Beginner</dd></div>
+                <div><dt>Lessons</dt><dd>26 lessons</dd></div>
+                <div><dt>Duration</dt><dd>4 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="tools">
+              <div class="course-card-top">
+                <span class="course-icon">G</span>
+                <span class="course-tag">Tools</span>
+              </div>
+              <h3>Git &amp; GitHub</h3>
+              <p>
+                Track changes, collaborate on branches, resolve merge conflicts,
+                and publish your code like a professional team.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Beginner</dd></div>
+                <div><dt>Lessons</dt><dd>16 lessons</dd></div>
+                <div><dt>Duration</dt><dd>2 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="tools">
+              <div class="course-card-top">
+                <span class="course-icon">A</span>
+                <span class="course-tag">Tools</span>
+              </div>
+              <h3>REST APIs</h3>
+              <p>
+                Work with endpoints, status codes, authentication, testing, and
+                integrations across modern web applications.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Intermediate</dd></div>
+                <div><dt>Lessons</dt><dd>18 lessons</dd></div>
+                <div><dt>Duration</dt><dd>3 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="backend">
+              <div class="course-card-top">
+                <span class="course-icon">U</span>
+                <span class="course-tag">Backend</span>
+              </div>
+              <h3>Authentication</h3>
+              <p>
+                Secure apps with sessions, JWTs, OAuth, and best practices for
+                protecting user data.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Advanced</dd></div>
+                <div><dt>Lessons</dt><dd>18 lessons</dd></div>
+                <div><dt>Duration</dt><dd>3 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="tools">
+              <div class="course-card-top">
+                <span class="course-icon">D</span>
+                <span class="course-tag">Tools</span>
+              </div>
+              <h3>Deployment</h3>
+              <p>
+                Prepare applications for production with hosting, environment
+                variables, CI/CD, and performance tuning.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Intermediate</dd></div>
+                <div><dt>Lessons</dt><dd>16 lessons</dd></div>
+                <div><dt>Duration</dt><dd>2 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="programming">
+              <div class="course-card-top">
+                <span class="course-icon">D</span>
+                <span class="course-tag">Programming</span>
+              </div>
+              <h3>Data Structures &amp; Algorithms (DSA)</h3>
+              <p>
+                Strengthen your problem-solving ability with arrays, trees,
+                graphs, recursion, and efficient search strategies.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Advanced</dd></div>
+                <div><dt>Lessons</dt><dd>34 lessons</dd></div>
+                <div><dt>Duration</dt><dd>6 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+
+            <article class="course-card" data-category="backend">
+              <div class="course-card-top">
+                <span class="course-icon">S</span>
+                <span class="course-tag">Backend</span>
+              </div>
+              <h3>System Design Basics</h3>
+              <p>
+                Understand scaling, caching, queues, storage choices, and how
+                modern backend systems are planned.
+              </p>
+              <dl class="course-stats">
+                <div><dt>Level</dt><dd>Advanced</dd></div>
+                <div><dt>Lessons</dt><dd>14 lessons</dd></div>
+                <div><dt>Duration</dt><dd>2 weeks</dd></div>
+              </dl>
+              <a href="#home" class="btn btn-primary btn-block">Start Learning</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container section-panel">
+          <div class="faq-list" id="faqList">
+            <article class="faq-item open">
+              <button class="faq-question" type="button">
+                <span>Do I need any experience to start?</span>
+                <span class="faq-symbol">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  No. StackStart begins from the fundamentals and builds upward
+                  with guided practice and beginner-safe projects.
+                </p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>How long does it take to complete?</span>
+                <span class="faq-symbol">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Most learners complete the core full stack track in 12 to 16
+                  weeks depending on pace and weekly study time.
+                </p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>Will I get a certificate?</span>
+                <span class="faq-symbol">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Yes. Every completed path includes a shareable certificate for
+                  portfolios, resumes, and LinkedIn profiles.
+                </p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>Are the projects real-world?</span>
+                <span class="faq-symbol">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  The projects are built to mirror practical product work such as
+                  landing pages, dashboards, APIs, auth flows, and deployment.
+                </p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                <span>Can I get help if I am stuck?</span>
+                <span class="faq-symbol">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Yes. You can rely on walkthroughs, guided milestones, and a
+                  support-first course structure when you hit blockers.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container section-panel">
+          <div class="section-heading centered">
+            <p class="section-kicker">Testimonials</p>
+            <h2>What our students say.</h2>
+          </div>
+
+          <div class="testimonial-grid">
+            <article class="testimonial-card">
+              <h3>Sarah Khan</h3>
+              <p class="testimonial-role">Full Stack Developer</p>
+              <p>
+                "This platform changed my career. I went from zero coding
+                knowledge to landing my first dev job in 8 months."
+              </p>
+            </article>
+
+            <article class="testimonial-card">
+              <h3>Rahul Joshi</h3>
+              <p class="testimonial-role">Frontend Engineer</p>
+              <p>
+                "The project-based approach is amazing. I built real apps while
+                learning. My portfolio stood out to recruiters."
+              </p>
+            </article>
+
+            <article class="testimonial-card">
+              <h3>Priya Mehta</h3>
+              <p class="testimonial-role">Software Developer</p>
+              <p>
+                "Clear explanations, structured paths, and a supportive
+                community. Exactly what I needed to learn full stack development."
+              </p>
+            </article>
+          </div>
+
+          <div class="cta-banner">
+            <div>
+              <h2>Ready to become a full stack developer?</h2>
+              <p>
+                Start learning today and join 5000+ developers who have
+                transformed their careers.
+              </p>
+            </div>
+            <a href="#courses" class="btn btn-cta">Start Learning Free</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-section">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo brand-logo-footer">
+            <span class="brand-dot"></span>
+            <span>StackStart</span>
+          </a>
+        </div>
+        <div>
+          <h4>Learn</h4>
+          <ul>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#paths">Paths</a></li>
+            <li><a href="#courses">Courses</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#tech">Tech</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#home">Community</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#home">About</a></li>
+            <li><a href="#home">Careers</a></li>
+            <li><a href="#home">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
